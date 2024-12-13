@@ -5,6 +5,7 @@ public class RepeatBackground : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private Vector3 startPos;
     private float repeatWidth;
+    
     void Start()
     {
         startPos = transform.position;
