@@ -6,6 +6,7 @@ public class MoveLeft : MonoBehaviour
     private float speed = 20;
     private PlayerController PlayerControllerScript;
     
+    
     void Start()
     {
         PlayerControllerScript = GameObject.Find("Player").GetComponent<PlayerController>();
@@ -18,7 +19,8 @@ public class MoveLeft : MonoBehaviour
         {
             transform.Translate(Vector3.left * Time.deltaTime * speed);
         }
-        
+
+ 
        
 
 
